@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7f0027d49893e4a8610a532ec9ad98, type: 3}
+  m_Name: Puzzle1
+  m_EditorClassIdentifier: 
+  timeInSecunds: 0
+  Columns: 4
+  Rows: 4
+  Board:
+  - Size: 4
+    Row:
+    - W
+    - B
+    - S
+    - B
+  - Size: 4
+    Row:
+    - Y
+    - K
+    - S
+    - Z
+  - Size: 4
+    Row:
+    - A
+    - W
+    - W
+    - K
+  - Size: 4
+    Row:
+    - A
+    - Q
+    - P
+    - U
+  SearchWords:
+  - Word: ISADORA
+  - Word: BOLA
